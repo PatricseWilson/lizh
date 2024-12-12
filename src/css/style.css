@@ -1,4 +1,4 @@
-main {
+main > .container {
     display: grid;
     grid-template-areas: 
     "header header header header"
@@ -12,6 +12,46 @@ main {
 
 header {
     grid-area: header;
+
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.container > header > .header-container {
+    padding: 6rem 7rem 2rem;
+}
+
+.container > header > .header-container > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container > header > .header-container > ul > .list > .img-logo {
+    width: 100%;
+}
+
+.container > header > .header-container > ul > .list > .btn {
+    background-color: #FFF;
+    padding: 2rem 7rem;
+    border-radius: 5rem;
+    color: var(--Very-Dark-Cyan);
+    font-size: 2rem;
+
+    transition: .3s;
+
+    box-shadow: 3px 3px 10px #000;
+}
+
+.container > header > .header-container > ul > .list > .btn:hover {
+    color: var(--Grayish-Blue);
+}
+
+.container > header > .header-container > ul > .list > .btn:active {
+    background-color: #000;
 }
 
 section.infos {
