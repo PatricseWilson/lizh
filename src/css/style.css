@@ -41,7 +41,7 @@ header {
     color: var(--Very-Dark-Cyan);
     font-size: 2rem;
 
-    transition: .3s;
+    transition: .2s;
 
     box-shadow: 3px 3px 10px #000;
 }
@@ -50,8 +50,9 @@ header {
     color: var(--Grayish-Blue);
 }
 
-.container > header > .header-container > ul > .list > .btn:active {
-    background-color: #000;
+.container > header > .header-container > .container {
+    background-color: red;
+    display: flex;
 }
 
 section.infos {
