@@ -13,7 +13,7 @@ main > .container {
 header {
     grid-area: header;
 
-    background-image: url(../images/bg-hero-desktop.svg);
+    background: url(../images/bg-hero-desktop.svg) center;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -22,6 +22,7 @@ header {
 
 .container > header > .header-container {
     padding: 6rem 7rem 2rem;
+    height: 100%;
 }
 
 .container > header > .header-container > ul {
@@ -36,9 +37,13 @@ header {
 
 .container > header > .header-container > ul > .list > .btn {
     background-color: #FFF;
-    padding: 2rem 7rem;
+
+    padding: 1.5rem 7rem;
+    
     border-radius: 5rem;
+    
     color: var(--Very-Dark-Cyan);
+    
     font-size: 2rem;
 
     transition: .2s;
@@ -51,8 +56,51 @@ header {
 }
 
 .container > header > .header-container > .container {
-    background-color: red;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+    margin-top: 2rem;
+    
+    height: 100%;
+}
+
+.container > header > .header-container > .container > .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    height: 100%;
+}
+
+.container > header > .header-container > .container > .left > .title {
+    font-size: 5rem;
+}
+
+.container > header > .header-container > .container > .left > .description {
+    font-size: 1.8rem;
+}
+
+.container > header > .header-container > .container > .left > .btn /* PRECISA FAZER HOVER */{
+    background-color: var(--Pink);
+    
+    width: 60%;
+    
+    text-align: center;
+    
+    border-radius: 3rem;
+    
+    font-size: 1.7rem;
+    font-family: "Open Sans", sans-serif;
+    
+    padding: 1.5rem 7rem;
+    
+    color: #FFF;
+}
+
+.container > header > .header-container > .right > img */* PAREI AQUI */ {
+    width: 60rem;
 }
 
 section.infos {
