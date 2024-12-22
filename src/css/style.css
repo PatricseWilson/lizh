@@ -10,7 +10,7 @@ main > .container {
     grid-template-columns: repeat(4, 1fr);
 }
 
-header {
+.container > header {
     grid-area: header;
 
     background: url(../images/bg-hero-desktop.svg) center;
@@ -22,6 +22,7 @@ header {
 
 .container > header > .header-container {
     padding: 6rem 7rem 2rem;
+
     height: 100%;
 }
 
@@ -61,7 +62,7 @@ header {
     align-items: center;
     gap: 3rem;
     
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     
     height: 100%;
 }
@@ -97,10 +98,12 @@ header {
     padding: 1.5rem 7rem;
     
     color: #FFF;
+
+    transition: .3s;
 }
 
-.container > header > .header-container > .right > img */* PAREI AQUI */ {
-    width: 60rem;
+.container > header > .header-container > .container > .right > img {
+    width: 62rem;
 }
 
 section.infos {
