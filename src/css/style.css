@@ -102,7 +102,7 @@ main > .container {
     transition: .3s;
 }
 
-.container > header > .header-container > .container > .right > img {
+.container > header > .header-container > .container > .right > .container-image {
     width: 62rem;
 }
 
