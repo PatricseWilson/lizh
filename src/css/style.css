@@ -106,6 +106,73 @@ main > .container {
     width: 62rem;
 }
 
+@media (max-width: 425px) {
+    .container > header {
+        display: flex;
+        flex-direction: column;
+
+        background: url(../images/bg-hero-mobile.svg) center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        padding: 3rem 2rem 0;
+    }
+    
+    .container > header > .header-container {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container > header > .header-container > ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .container > header > .header-container > ul > .list > .img-logo {
+        width: 12rem;
+    }
+
+    .container > header > .header-container > ul > .list > .btn {
+        padding: .5rem 4rem;
+
+        font-size: 1.5rem;
+    }
+
+    .container > header > .header-container > .container {
+        flex-direction: column;
+
+        margin-top: 8rem;
+    }
+
+    .container > header > .header-container > .container > .left {
+        padding: 0 2rem;
+    }
+
+    .container > header > .header-container > .container > .left > .title {
+        font-size: 3rem;
+    }
+
+     .container > header > .header-container > .container > .left > .description {
+        font-size: 2rem;
+        margin-top: 3.2rem;
+    }
+
+    .container > header > .header-container > .container > .left > .btn {
+        margin-top: 3rem;
+        padding: 1.5rem .7rem;
+        
+        width: 100%;
+        
+        text-align: center;
+    }
+
+    .container > header > .header-container > .container > .right > .container-image {
+        width: 100%;
+    }
+}
+
 section.infos {
     grid-area: infos;
 }
