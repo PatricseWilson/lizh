@@ -22,8 +22,6 @@ main > .container {
 
 .container > header > .header-container {
     padding: 6rem 7rem 2rem;
-
-    height: 100%;
 }
 
 .container > header > .header-container > ul {
@@ -59,43 +57,44 @@ main > .container {
 .container > header > .header-container > .container {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 3rem;
-    
-    margin-top: 1.5rem;
-    
-    height: 100%;
+
+    margin-top: 4rem;
 }
 
 .container > header > .header-container > .container > .left {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    
-    height: 100%;
 }
 
 .container > header > .header-container > .container > .left > .title {
-    font-size: 5rem;
+    font-size: 6.5rem;
+
+    margin-top: 4rem;
 }
 
 .container > header > .header-container > .container > .left > .description {
-    font-size: 1.8rem;
+    font-size: 2.7rem;
+
+    line-height: 4.5rem;
+
+    margin-top: 4rem;
 }
 
 .container > header > .header-container > .container > .left > .btn /* PRECISA FAZER HOVER */{
     background-color: var(--Pink);
+
+    margin-top: 3rem;
+    padding: 1.5rem 7rem;
     
-    width: 60%;
+    width: 50%;
     
     text-align: center;
     
     border-radius: 3rem;
     
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: "Open Sans", sans-serif;
-    
-    padding: 1.5rem 7rem;
     
     color: #FFF;
 
@@ -103,8 +102,13 @@ main > .container {
 }
 
 .container > header > .header-container > .container > .right > .container-image {
-    width: 62rem;
+    width: 90rem;
 }
+
+/* @media (min-width:)  AQUI EU PRECISO SABER QUAL O PIXEL MÁXIMO DO MEU NOTEBOOK  {
+    
+}
+*/
 
 @media (max-width: 425px) {
     .container > header {
