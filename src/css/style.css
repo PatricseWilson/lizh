@@ -21,7 +21,7 @@ main > .container {
 }
 
 .container > header > .header-container {
-    padding: 6rem 7rem 2rem;
+    padding: 5rem 7rem 2rem;
 }
 
 .container > header > .header-container > ul {
