@@ -1,186 +1,217 @@
 main > .container {
-    display: grid;
-    grid-template-areas: 
+  display: grid;
+  grid-template-areas:
     "header header header header"
     "infos infos infos infos"
     "advertising advertising advertising advertising"
     "footer footer footer footer";
 
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .container > header {
-    grid-area: header;
+  grid-area: header;
 
-    background: url(../images/bg-hero-desktop.svg) center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(../images/bg-hero-desktop.svg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container > header > .header-container {
-    padding: 5rem 7rem 2rem;
+  padding: 5rem 7rem 2rem;
 }
 
 .container > header > .header-container > ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container > header > .header-container > ul > .list > .img-logo {
-    width: 100%;
+  width: 100%;
 }
 
 .container > header > .header-container > ul > .list > .btn {
-    background-color: #FFF;
+  background-color: #fff;
 
-    padding: 1.5rem 7rem;
-    
-    border-radius: 5rem;
-    
-    color: var(--Very-Dark-Cyan);
-    
-    font-size: 2rem;
+  padding: 1.5rem 7rem;
 
-    transition: .2s;
+  border-radius: 5rem;
 
-    box-shadow: 3px 3px 10px #000;
+  color: var(--Very-Dark-Cyan);
+
+  font-size: 2rem;
+
+  transition: 0.2s;
+
+  box-shadow: 3px 3px 10px #000;
 }
 
 .container > header > .header-container > ul > .list > .btn:hover {
-    color: var(--Grayish-Blue);
+  color: var(--Grayish-Blue);
 }
 
 .container > header > .header-container > .container {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
 
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .container > header > .header-container > .container > .left {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .container > header > .header-container > .container > .left > .title {
-    font-size: 5.5rem;
+  font-size: 5.5rem;
 
-    margin-top: 10rem;
+  margin-top: 10rem;
 }
 
 .container > header > .header-container > .container > .left > .description {
-    font-size: 2.2rem;
+  font-size: 2.2rem;
 
-    line-height: 4rem;
+  line-height: 4rem;
 
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
-.container > header > .header-container > .container > .left > .btn /* PRECISA FAZER HOVER */{
-    background-color: var(--Pink);
+.container > header > .header-container > .container > .left > .btn /* PRECISA FAZER HOVER */ {
+  background-color: var(--Pink);
 
-    margin-top: 4rem;
-    padding: 1.2rem 0;
-    
-    width: 32rem;
-    
-    text-align: center;
-    
-    border-radius: 3rem;
-    
-    font-size: 1.8rem;
-    font-family: "Open Sans", sans-serif;
-    
-    color: #FFF;
+  margin-top: 4rem;
+  padding: 1.2rem 0;
 
-    transition: .3s;
+  width: 32rem;
+
+  text-align: center;
+
+  border-radius: 3rem;
+
+  font-size: 1.8rem;
+  font-family: "Open Sans", sans-serif;
+
+  color: #fff;
+
+  transition: 0.3s;
 }
-
-/* @media (min-width:)  AQUI EU PRECISO SABER QUAL O PIXEL MÁXIMO DO MEU NOTEBOOK  {
-    
-}
-*/
 
 @media (max-width: 425px) {
-    .container > header {
-        display: flex;
-        flex-direction: column;
+  .container > header {
+    display: flex;
+    flex-direction: column;
 
-        background: url(../images/bg-hero-mobile.svg) center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-        padding: 3rem 2rem 0;
-    }
-    
-    .container > header > .header-container {
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
+    background: url(../images/bg-hero-mobile.svg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-    .container > header > .header-container > ul {
-        display: flex;
-        align-items: center;
-    }
+    padding: 3rem 2rem 0;
+  }
 
-    .container > header > .header-container > ul > .list > .img-logo {
-        width: 12rem;
-    }
+  .container > header > .header-container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .container > header > .header-container > ul > .list > .btn {
-        padding: .5rem 4rem;
+  .container > header > .header-container > ul {
+    display: flex;
+    align-items: center;
+  }
 
-        font-size: 1.5rem;
-    }
+  .container > header > .header-container > ul > .list > .img-logo {
+    width: 12rem;
+  }
 
-    .container > header > .header-container > .container {
-        flex-direction: column;
+  .container > header > .header-container > ul > .list > .btn {
+    padding: 0.5rem 4rem;
 
-        margin-top: 8rem;
-    }
+    font-size: 1.5rem;
+  }
 
-    .container > header > .header-container > .container > .left {
-        padding: 0 2rem;
-    }
+  .container > header > .header-container > .container {
+    flex-direction: column;
 
-    .container > header > .header-container > .container > .left > .title {
-        font-size: 3rem;
-    }
+    margin-top: 8rem;
+  }
 
-     .container > header > .header-container > .container > .left > .description {
-        font-size: 2rem;
-        margin-top: 3.2rem;
-    }
+  .container > header > .header-container > .container > .left {
+    padding: 0 2rem;
+  }
 
-    .container > header > .header-container > .container > .left > .btn {
-        margin-top: 3rem;
-        padding: 1.5rem .7rem;
-        
-        width: 100%;
-        
-        text-align: center;
-    }
+  .container > header > .header-container > .container > .left > .title {
+    font-size: 3rem;
+  }
 
-    .container > header > .header-container > .container > .right > .container-image {
-        width: 100%;
-    }
+  .container > header > .header-container > .container > .left > .description {
+    font-size: 2rem;
+    margin-top: 3.2rem;
+  }
+
+  .container > header > .header-container > .container > .left > .btn {
+    margin-top: 3rem;
+    padding: 1.5rem 0.7rem;
+
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .container > header > .header-container > .container > .right > .container-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) /* VERIFICAR O PIXEL MÁXIMO DO MEU NOTEBOOK */ {
+  .container > header > .header-container > ul > .list > .img-logo {
+    width: 80%;
+  }
+
+  .container > header > .header-container > ul > .list > .btn {
+    padding: 1rem 6rem;
+
+    font-size: 1.7rem;
+  }
+
+  .container > header > .header-container > .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container > header > .header-container > .container > .left > .title {
+    font-size: 5rem;
+
+    margin-top: 3rem;
+  }
+
+  .container > header > .header-container > .container > .left > .description {
+    font-size: 2rem;
+  }
+
+  .container > header > .header-container > .container > .left > .btn {
+    margin: 4rem auto 0;
+  }
+
+  .container > header > .header-container > .container > .right > .container-image {
+    width: 100%;
+  }
 }
 
 section.infos {
-    grid-area: infos;
+  grid-area: infos;
 }
 
 section.advertising {
-    grid-area: advertising;
+  grid-area: advertising;
 }
 
 .footer {
-    grid-area: footer;
+  grid-area: footer;
 }
