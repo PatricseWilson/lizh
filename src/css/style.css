@@ -65,12 +65,12 @@ main > .container {
 .container > header > .header-container > .container > .left {
   display: flex;
   flex-direction: column;
+
+  padding-top: 10rem;
 }
 
 .container > header > .header-container > .container > .left > .title {
   font-size: 5.5rem;
-
-  margin-top: 10rem;
 }
 
 .container > header > .header-container > .container > .left > .description {
