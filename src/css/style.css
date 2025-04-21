@@ -168,7 +168,7 @@ main > .container {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) /* VERIFICAR O PIXEL MÁXIMO DO MEU NOTEBOOK */ {
+@media (min-width: 426px) and (max-width: 768px) {
   .container > header > .header-container > ul > .list > .img-logo {
     width: 80%;
   }
@@ -205,8 +205,33 @@ main > .container {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  body {
-    background-color: red;
+  .container > header > .header-container > .container {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .container > header > .header-container > .container > .left > .title {
+    width: 85%;
+
+    margin: auto;
+  }
+
+  .container > header > .header-container > .container > .left > .description {
+    margin-top: 2rem;
+
+    font-size: 2.5rem;
+    
+    padding: 0 3rem;
+  }
+
+  .container > header > .header-container > .container > .left > .btn {
+    margin: 4rem auto 0;
+  }
+
+  .container > header > .header-container > .container > .right > .container-image {
+    width: 100%;
   }
 }
 
