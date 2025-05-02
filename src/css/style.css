@@ -114,10 +114,11 @@ main > .container {
   }
 
   .container > header > .header-container {
-    padding: 0;
     display: flex;
     flex-direction: column;
     text-align: center;
+    
+    padding: 0;
   }
 
   .container > header > .header-container > ul {
