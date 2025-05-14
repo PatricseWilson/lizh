@@ -238,6 +238,37 @@ main > .container {
 
 section.infos {
   grid-area: infos;
+
+  padding: 0 15rem;
+  margin-top: 10rem;
+}
+
+section.infos > .info.grow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 1rem;
+
+  padding: 5rem 10rem;
+
+  box-shadow: 2px 2px 5px 2px #000;
+}
+
+section.infos > .info.grow > .left > .title {
+  font-size: 6rem;
+}
+
+section.infos > .info.grow > .left > .description {
+  margin-top: 4rem;
+  
+  font-size: 2.3rem;
+
+  width: 80%;
+}
+
+.image-grow {
+  width: 60rem;
 }
 
 section.advertising {
