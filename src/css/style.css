@@ -264,7 +264,9 @@ section.infos > .info.grow > .left > .description {
   
   font-size: 2.3rem;
 
-  width: 80%;
+  width: 70%;
+
+  line-height: 3rem;
 }
 
 .image-grow {
