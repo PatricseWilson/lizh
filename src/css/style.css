@@ -66,7 +66,7 @@ main > .container {
   display: flex;
   flex-direction: column;
 
-  padding-top: 10rem;
+  padding-top: 3rem;
 }
 
 .container > header > .header-container > .container > .left > .title {
@@ -233,6 +233,26 @@ main > .container {
 
   .container > header > .header-container > .container > .right > .container-image {
     width: 100%;
+  }
+}
+
+@media (min-width: 1025px) /* A partir daqui fazer o responsivo com esse min-width. */ {
+  .container > header > .header-container > .container {
+    display: flex;
+  }
+
+  .container > header > .header-container > .container > .left > .title {
+    font-size: 5rem;
+  }
+
+  .container > header > .header-container > .container > .left > .description {
+    font-size: 1.7rem;
+
+    line-height: 2.5rem;
+  }
+
+  .container-image {
+    width: 60rem;
   }
 }
 
