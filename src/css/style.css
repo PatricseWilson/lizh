@@ -45,7 +45,7 @@ main > .container {
 
   font-size: 2rem;
 
-  transition: 0.2s;
+  transition: .2s;
 
   box-shadow: 3px 3px 10px #000;
 }
