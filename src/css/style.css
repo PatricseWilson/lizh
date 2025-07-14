@@ -68,7 +68,7 @@ main > .container {
   display: flex;
   flex-direction: column;
 
-  padding-top: 3rem;
+  padding-top: 10rem;
 }
 
 .container > header > .header-container > .container > .left > .title {
