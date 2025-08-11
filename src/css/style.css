@@ -52,7 +52,7 @@ main > .container {
 
 .container > header > .header-container > ul > .list > .btn:hover {
   color: var(--Grayish-Blue);
- 
+
   background-color: var(--Light-Grayish-Blue); /* Confirmar */
 }
 
