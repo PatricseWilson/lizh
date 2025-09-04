@@ -270,7 +270,8 @@ section.infos {
 }
 
 section.infos > .info.grow, 
-section.infos > .info.flowing {
+section.infos > .info.flowing,
+section.infos > .info.users {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -278,6 +279,7 @@ section.infos > .info.flowing {
   border-radius: 1rem;
 
   padding: 5rem 10rem;
+  margin-bottom: 4rem;
 
   box-shadow: 2px 2px 5px 2px #000;
 }
@@ -287,12 +289,14 @@ section.infos > .info.flowing {
 } */
 
 section.infos > .info.grow > .left > .title, 
-section.infos > .info.flowing > .left > .title {
+section.infos > .info.flowing > .left > .title,
+section.infos > .info.users > .left > .title {
   font-size: 4rem;
 }
 
 section.infos > .info.grow > .left > .description, 
-section.infos > .info.flowing > .left > .description {
+section.infos > .info.flowing > .left > .description,
+section.infos > .info.users > .left > .description {
   margin-top: 2rem;
   
   font-size: 1.8rem;
