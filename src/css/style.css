@@ -306,7 +306,9 @@ section.infos > .info.users > .left > .description {
   line-height: 3rem;
 }
 
-.image-grow {
+.image-grow, 
+.image-flowing, 
+.image-users {
   width: 50rem;
 }
 
