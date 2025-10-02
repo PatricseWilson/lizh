@@ -6,7 +6,7 @@ main > .container {
     "advertising advertising advertising advertising"
     "footer footer footer footer";
 
-  grid-template-rows: repeat(4, 1fr);
+  /* grid-template-rows: repeat(4, 1fr); */
   grid-template-columns: repeat(4, 1fr);
 
   font-family: "Poppins", sans-serif;
@@ -21,7 +21,7 @@ main > .container {
 }
 
 .container > header > .header-container {
-  padding: 5rem 7rem 2rem;
+  padding: 5rem 7rem 0;
 }
 
 .container > header > .header-container > ul {
@@ -266,7 +266,7 @@ section.infos {
   grid-area: infos;
 
   padding: 0 15rem;
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
 
 section.infos > .info.grow, 
@@ -279,7 +279,7 @@ section.infos > .info.users {
   border-radius: 1rem;
 
   padding: 5rem 10rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 
   box-shadow: 2px 2px 5px 2px #000;
 }
@@ -310,10 +310,6 @@ section.infos > .info.users > .left > .description {
 .image-flowing, 
 .image-users {
   width: 50rem;
-}
-
-section.infos > .info.flowing {
-  margin-top: 6rem;
 }
 
 section.advertising {
