@@ -45,15 +45,9 @@ main > .container {
 
   font-size: 1.8rem;
 
-  transition: .2s;
+  transition: .1s;
 
   box-shadow: 3px 3px 10px #000;
-}
-
-.container > header > .header-container > ul > .list > .btn:hover {
-  color: var(--Grayish-Blue);
-
-  background-color: var(--Light-Grayish-Blue); /* Confirmar */
 }
 
 .container > header > .header-container > .container {
@@ -87,7 +81,7 @@ main > .container {
   margin-top: 4rem;
 }
 
-.container > header > .header-container > .container > .left > .btn /* PRECISA FAZER HOVER */ {
+.container > header > .header-container > .container > .left > .btn {
   background-color: var(--Pink);
 
   margin-top: 4rem;
@@ -104,7 +98,13 @@ main > .container {
 
   color: #fff;
 
-  transition: 0.3s;
+  transition: 0.1s;
+}
+
+.container > header > .header-container > .container > .left > .btn:focus {
+  border: 1px solid var(--Pink);
+  background-color: #FFF;
+  color: #000;
 }
 
 @media (max-width: 425px) {
@@ -284,9 +284,9 @@ section.infos > .info.users {
   box-shadow: 2px 2px 5px 2px #000;
 }
 
-/* section.infos > .info.flowing {
+section.infos > .info.flowing {
   flex-direction: row-reverse;
-} */
+}
 
 section.infos > .info.grow > .left > .title, 
 section.infos > .info.flowing > .left > .title,
