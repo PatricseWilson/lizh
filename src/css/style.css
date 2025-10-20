@@ -55,7 +55,7 @@ main > .container {
   justify-content: center;
   gap: 5rem;
 
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .container > header > .header-container > ul > .list > .btn:focus {
