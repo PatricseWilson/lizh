@@ -60,6 +60,8 @@ main > .container {
 
 .container > header > .header-container > ul > .list > .btn:focus {
   background-color: var(--Pink);
+
+  color: #FFF;
 }
 
 .container > header > .header-container > .container > .left {
