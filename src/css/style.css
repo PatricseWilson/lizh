@@ -244,7 +244,7 @@ main > .container {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1350px) /* A partir daqui fazer o responsivo com esse min-width para fazer no notebook. */ {
+@media (min-width: 1025px) and (max-width: 1400px) /* A partir daqui fazer o responsivo com esse min-width para fazer no notebook. */ {
   .container > header > .header-container > .container {
     display: flex;
   }
