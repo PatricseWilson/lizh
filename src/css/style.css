@@ -50,18 +50,18 @@ main > .container {
   box-shadow: 3px 3px 10px #000;
 }
 
+.container > header > .header-container > ul > .list > .btn:focus {
+  background-color: var(--Pink);
+
+  color: #FFF;
+}
+
 .container > header > .header-container > .container {
   display: flex;
   justify-content: center;
   gap: 5rem;
 
   margin-top: 3rem;
-}
-
-.container > header > .header-container > ul > .list > .btn:focus {
-  background-color: var(--Pink);
-
-  color: #FFF;
 }
 
 .container > header > .header-container > .container > .left {
