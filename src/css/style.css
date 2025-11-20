@@ -259,7 +259,11 @@ main > .container {
     line-height: 3rem;
   }
 
-  .container-image {
+  .container > header > .header-container > .container > .right {
+    display: flex;
+  }
+
+  .container > header > .header-container > .container > .right > .container-image {
     width: 60rem;
   }
 }
@@ -310,7 +314,7 @@ section.infos > .info.users > .left > .title {
 }
 
 section.infos > .info.grow > .left > .description, 
-/* section.infos > .info.flowing > .right > .description, */
+section.infos > .info.flowing > .right > .description,
 section.infos > .info.users > .left > .description {
   margin-top: 2rem;
   
@@ -319,6 +323,8 @@ section.infos > .info.users > .left > .description {
   width: 60%;
 
   line-height: 3rem;
+
+  color: var(--Grayish-Blue);
 }
 
 section.infos > .info.grow > .image-grow, 
