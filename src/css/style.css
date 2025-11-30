@@ -85,7 +85,7 @@ main > .container {
 .container > header > .header-container > .container > .left > .btn {
   background-color: var(--Pink);
 
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   padding: 1.5rem 0;
 
   width: 32rem;
