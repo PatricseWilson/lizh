@@ -117,7 +117,7 @@ main > .container {
     background-repeat: no-repeat;
     background-size: cover;
 
-    padding: 3rem 2rem 0;
+    padding: 4rem 3rem 0;
   }
 
   .container > header > .header-container {
@@ -134,7 +134,7 @@ main > .container {
   }
 
   .container > header > .header-container > ul > .list > .img-logo {
-    width: 12rem;
+    width: 15rem;
   }
 
   .container > header > .header-container > ul > .list > .btn {
@@ -159,12 +159,12 @@ main > .container {
 
   .container > header > .header-container > .container > .left > .description {
     font-size: 2rem;
-    margin-top: 3.2rem;
+    margin-top: 2rem;
   }
 
   .container > header > .header-container > .container > .left > .btn {
-    margin-top: 3rem;
-    padding: 1.5rem 0.7rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
 
     width: 100%;
 
@@ -334,6 +334,13 @@ section.infos > .info.grow > .image-grow,
 section.infos > .info.flowing > .image-flowing, 
 section.infos > .info.users > .image-users {
   width: 50rem;
+}
+
+@media (max-width: 425px) {
+  section.infos {
+    flex-direction: column;
+    background-color: red;
+  }
 }
 
 section.advertising {
