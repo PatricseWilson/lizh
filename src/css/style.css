@@ -292,10 +292,9 @@ section.infos > .info.users {
   box-shadow: 2px 2px 5px 2px #000;
 }
 
-section.infos > .info.flowing {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
+section.infos > .info.flowing /* PERGUNTAR NA COMUNIDADE COMO CONSERTAR */ {
+  display: flex;
+  justify-content: space-between;
   border-radius: 1rem;
 
   padding: 5rem 10rem;
@@ -338,8 +337,30 @@ section.infos > .info.users > .image-users {
 
 @media (max-width: 425px) {
   section.infos {
+    padding: 3rem 4rem;
+  }
+
+  section.infos > .info.grow,
+  section.infos > .info.flowing, 
+  section.infos > .info.users {
     flex-direction: column;
-    background-color: red;
+  }
+
+  section.infos > .info.grow > .left > .title, 
+  section.infos > .info.flowing > .right > .title,
+  section.infos > .info.users > .left > .title {
+    font-size: 2rem;
+  }
+
+  section.infos > .info.grow > .left > .description, 
+  section.infos > .info.flowing > .right > .description,
+  section.infos > .info.users > .left > .description {
+    width: 100%;
+  }
+
+  section.infos > .info.grow > .image-grow, 
+  section.infos > .info.users > .image-users {
+    width: 30rem;
   }
 }
 
