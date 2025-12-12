@@ -274,6 +274,9 @@ main > .container {
 section.infos {
   grid-area: infos;
 
+  display: flex;
+  flex-direction: column;
+
   padding: 0 15rem;
   margin-top: 7rem;
 }
