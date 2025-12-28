@@ -243,7 +243,7 @@ main > .container {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1400px) /* A partir daqui fazer o responsivo com esse min-width para fazer no notebook. */ {
+@media (min-width: 1025px) and (max-width: 1400px) { /* A partir daqui fazer o responsivo com esse min-width para fazer no notebook. */ 
   .container > header > .header-container > .container {
     display: flex;
   }
@@ -365,6 +365,33 @@ section.infos > .info.users > .image-users {
   section.infos > .info.flowing > .image-flowing, /* FIZ EM CASA VERIFICAR SE ESTÁ CERTO */
   section.infos > .info.users > .image-users {
     width: 30rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+  section.infos {
+    padding: 0 10rem;
+  }
+
+  section.infos > .info.grow,
+  section.infos > .info.flowing, 
+  section.infos > .info.users {
+    padding: 4rem 5rem;
+    gap: 3rem;
+  }
+
+  section.infos > .info.grow > .left > .title, 
+  section.infos > .info.flowing > .right > .title,
+  section.infos > .info.users > .left > .title {
+    font-size: 3.5rem;
+  }
+
+  section.infos > .info.grow > .left > .description, 
+  section.infos > .info.flowing > .right > .description,
+  section.infos > .info.users > .left > .description {
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
   }
 }
 
