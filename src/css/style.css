@@ -362,6 +362,7 @@ section.infos > .info.users > .image-users {
   }
 
   section.infos > .info.grow > .image-grow, 
+  section.infos > .info.flowing > .image-flowing, /* FIZ EM CASA VERIFICAR SE ESTÁ CERTO */
   section.infos > .info.users > .image-users {
     width: 30rem;
   }
