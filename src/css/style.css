@@ -370,14 +370,14 @@ section.infos > .info.users > .image-users {
 
 @media (min-width: 1025px) and (max-width: 1400px) {
   section.infos {
-    padding: 0 10rem;
+    padding: 0 8rem;
   }
 
   section.infos > .info.grow,
   section.infos > .info.flowing, 
   section.infos > .info.users {
     padding: 4rem 5rem;
-    gap: 3rem;
+    gap: 5rem;
   }
 
   section.infos > .info.grow > .left > .title, 
@@ -389,9 +389,13 @@ section.infos > .info.users > .image-users {
   section.infos > .info.grow > .left > .description, 
   section.infos > .info.flowing > .right > .description,
   section.infos > .info.users > .left > .description {
-    width: 100%;
-    font-size: 1.5rem;
+    width: 90%;
+    font-size: 1.7rem;
     line-height: 2.5rem;
+  }
+
+  section.info.users.-last {
+    margin-bottom: 0;
   }
 }
 
