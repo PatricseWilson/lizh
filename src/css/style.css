@@ -6,7 +6,6 @@ main > .container {
     "advertising advertising advertising advertising"
     "footer footer footer footer";
 
-  /* grid-template-rows: repeat(4, 1fr); */
   grid-template-columns: repeat(4, 1fr);
 
   font-family: "Poppins", sans-serif;
@@ -104,7 +103,9 @@ main > .container {
 
 .container > header > .header-container > .container > .left > .btn:focus {
   border: 1px solid var(--Pink);
+
   background-color: #FFF;
+
   color: #000;
 }
 
@@ -123,9 +124,10 @@ main > .container {
   .container > header > .header-container {
     display: flex;
     flex-direction: column;
-    text-align: center;
     
     padding: 0;
+
+    text-align: center;
   }
 
   .container > header > .header-container > ul {
@@ -190,6 +192,7 @@ main > .container {
   .container > header > .header-container > .container {
     display: flex;
     flex-direction: column;
+    
     text-align: center;
   }
 
@@ -298,6 +301,7 @@ section.infos > .info.users {
 section.infos > .info.flowing /* PERGUNTAR NA COMUNIDADE COMO CONSERTAR */ {
   display: flex;
   justify-content: space-between;
+  
   border-radius: 1rem;
 
   padding: 5rem 10rem;
@@ -377,6 +381,7 @@ section.infos > .info.users > .image-users {
   section.infos > .info.flowing, 
   section.infos > .info.users {
     padding: 4rem 5rem;
+  
     gap: 5rem;
   }
 
@@ -389,12 +394,14 @@ section.infos > .info.users > .image-users {
   section.infos > .info.grow > .left > .description, 
   section.infos > .info.flowing > .right > .description,
   section.infos > .info.users > .left > .description {
-    width: 90%;
+    width: 100%;
+  
     font-size: 1.7rem;
+  
     line-height: 2.5rem;
   }
 
-  section.info.users.-last {
+  section.info.users.-last { /* VERIFICAR SE É REALMENTE NECESSÁRIO */
     margin-bottom: 0;
   }
 }
