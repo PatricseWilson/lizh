@@ -401,7 +401,7 @@ section.infos > .info.users > .image-users {
     line-height: 2.5rem;
   }
 
-  section.info.users.-last { /* VERIFICAR SE É REALMENTE NECESSÁRIO */
+  section.info.users.-last { /* VERIFICAR SE É REALMENTE NECESSÁRIO ESSA DECLARAÇÃO */
     margin-bottom: 0;
   }
 }
