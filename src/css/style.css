@@ -401,6 +401,12 @@ section.infos > .info.users > .image-users {
     line-height: 2.5rem;
   }
 
+  section.infos > .info.grow > .image-grow, 
+  section.infos > .info.flowing > .image-flowing,
+  section.infos > .info.users > .image-users {
+    width: 50rem;
+  }
+
   section.info.users.-last { /* VERIFICAR SE É REALMENTE NECESSÁRIO ESSA DECLARAÇÃO */
     margin-bottom: 0;
   }
