@@ -314,12 +314,17 @@ section.infos > .info.flowing > .right {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: end;
 }
 
 section.infos > .info.grow > .left > .title, 
 section.infos > .info.flowing > .right > .title,
 section.infos > .info.users > .left > .title {
   font-size: 4rem;
+}
+
+section.infos > .info.flowing > .right > .title {
+  margin-right: 7.5rem;
 }
 
 section.infos > .info.grow > .left > .description, 
