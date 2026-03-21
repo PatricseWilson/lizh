@@ -281,7 +281,7 @@ section.infos {
   flex-direction: column;
 
   padding: 0 15rem;
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 
 section.infos > .info.grow, 
