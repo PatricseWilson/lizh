@@ -5,8 +5,9 @@ main > .container {
     "infos infos infos infos"
     "advertising advertising advertising advertising"
     "footer footer footer footer";
-
+  
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr) ;
 
   font-family: "Poppins", sans-serif;
 }
@@ -44,7 +45,7 @@ main > .container {
 
   font-size: 1.8rem;
 
-  transition: .1s;
+  transition: 0.1s;
 
   box-shadow: 3px 3px 10px #000;
 }
@@ -52,7 +53,7 @@ main > .container {
 .container > header > .header-container > ul > .list > .btn:focus {
   background-color: var(--Pink);
 
-  color: #FFF;
+  color: #fff;
 }
 
 .container > header > .header-container > .container {
@@ -104,7 +105,7 @@ main > .container {
 .container > header > .header-container > .container > .left > .btn:focus {
   border: 1px solid var(--Pink);
 
-  background-color: #FFF;
+  background-color: #fff;
 
   color: #000;
 }
@@ -118,13 +119,13 @@ main > .container {
     background-repeat: no-repeat;
     background-size: cover;
 
-    padding: 4rem 3rem 0;
+    padding: 3rem 3rem 0;
   }
 
   .container > header > .header-container {
     display: flex;
     flex-direction: column;
-    
+
     padding: 0;
 
     text-align: center;
@@ -136,13 +137,13 @@ main > .container {
   }
 
   .container > header > .header-container > ul > .list > .img-logo {
-    width: 12rem;
+    width: 15rem;
   }
 
   .container > header > .header-container > ul > .list > .btn {
     padding: 0.5rem 4rem;
 
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .container > header > .header-container > .container {
@@ -173,7 +174,12 @@ main > .container {
     text-align: center;
   }
 
-  .container > header > .header-container > .container > .right > .container-image {
+  .container
+    > header
+    > .header-container
+    > .container
+    > .right
+    > .container-image {
     width: 100%;
   }
 }
@@ -192,7 +198,7 @@ main > .container {
   .container > header > .header-container > .container {
     display: flex;
     flex-direction: column;
-    
+
     text-align: center;
   }
 
@@ -210,7 +216,12 @@ main > .container {
     margin: 4rem auto 0;
   }
 
-  .container > header > .header-container > .container > .right > .container-image {
+  .container
+    > header
+    > .header-container
+    > .container
+    > .right
+    > .container-image {
     width: 100%;
   }
 }
@@ -233,7 +244,7 @@ main > .container {
     margin-top: 2rem;
 
     font-size: 2.5rem;
-    
+
     padding: 0 3rem;
   }
 
@@ -241,12 +252,18 @@ main > .container {
     margin: 4rem auto 0;
   }
 
-  .container > header > .header-container > .container > .right > .container-image {
+  .container
+    > header
+    > .header-container
+    > .container
+    > .right
+    > .container-image {
     width: 100%;
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1400px) { /* A partir daqui fazer o responsivo com esse min-width para fazer no notebook. */ 
+@media (min-width: 1025px) and (max-width: 1400px) {
+  /* A partir daqui fazer o responsivo com esse min-width para fazer no notebook. */
   .container > header > .header-container > .container {
     display: flex;
   }
@@ -269,7 +286,12 @@ main > .container {
     display: flex;
   }
 
-  .container > header > .header-container > .container > .right > .container-image {
+  .container
+    > header
+    > .header-container
+    > .container
+    > .right
+    > .container-image {
     width: 60rem;
   }
 }
@@ -284,7 +306,7 @@ section.infos {
   margin-top: 5rem;
 }
 
-section.infos > .info.grow, 
+section.infos > .info.grow,
 section.infos > .info.users {
   display: flex;
   justify-content: center;
@@ -301,7 +323,7 @@ section.infos > .info.users {
 section.infos > .info.flowing /* PERGUNTAR NA COMUNIDADE COMO CONSERTAR */ {
   display: flex;
   justify-content: space-between;
-  
+
   border-radius: 1rem;
 
   padding: 5rem 10rem;
@@ -317,7 +339,7 @@ section.infos > .info.flowing > .right {
   align-items: end;
 }
 
-section.infos > .info.grow > .left > .title, 
+section.infos > .info.grow > .left > .title,
 section.infos > .info.flowing > .right > .title,
 section.infos > .info.users > .left > .title {
   font-size: 4rem;
@@ -327,11 +349,11 @@ section.infos > .info.flowing > .right > .title {
   margin-right: 7.5rem;
 }
 
-section.infos > .info.grow > .left > .description, 
+section.infos > .info.grow > .left > .description,
 section.infos > .info.flowing > .right > .description,
 section.infos > .info.users > .left > .description {
   margin-top: 2rem;
-  
+
   font-size: 1.8rem;
 
   width: 60%;
@@ -341,8 +363,8 @@ section.infos > .info.users > .left > .description {
   color: var(--Grayish-Blue);
 }
 
-section.infos > .info.grow > .image-grow, 
-section.infos > .info.flowing > .image-flowing, 
+section.infos > .info.grow > .image-grow,
+section.infos > .info.flowing > .image-flowing,
 section.infos > .info.users > .image-users {
   width: 50rem;
 }
@@ -353,24 +375,24 @@ section.infos > .info.users > .image-users {
   }
 
   section.infos > .info.grow,
-  section.infos > .info.flowing, 
+  section.infos > .info.flowing,
   section.infos > .info.users {
     flex-direction: column;
   }
 
-  section.infos > .info.grow > .left > .title, 
+  section.infos > .info.grow > .left > .title,
   section.infos > .info.flowing > .right > .title,
   section.infos > .info.users > .left > .title {
     font-size: 2rem;
   }
 
-  section.infos > .info.grow > .left > .description, 
+  section.infos > .info.grow > .left > .description,
   section.infos > .info.flowing > .right > .description,
   section.infos > .info.users > .left > .description {
     width: 100%;
   }
 
-  section.infos > .info.grow > .image-grow, 
+  section.infos > .info.grow > .image-grow,
   section.infos > .info.flowing > .image-flowing,
   section.infos > .info.users > .image-users {
     width: 30rem;
@@ -383,36 +405,37 @@ section.infos > .info.users > .image-users {
   }
 
   section.infos > .info.grow,
-  section.infos > .info.flowing, 
+  section.infos > .info.flowing,
   section.infos > .info.users {
     padding: 4rem 5rem;
-  
+
     gap: 5rem;
   }
 
-  section.infos > .info.grow > .left > .title, 
+  section.infos > .info.grow > .left > .title,
   section.infos > .info.flowing > .right > .title,
   section.infos > .info.users > .left > .title {
     font-size: 3.5rem;
   }
 
-  section.infos > .info.grow > .left > .description, 
+  section.infos > .info.grow > .left > .description,
   section.infos > .info.flowing > .right > .description,
   section.infos > .info.users > .left > .description {
     width: 100%;
-  
+
     font-size: 1.7rem;
-  
+
     line-height: 2.5rem;
   }
 
-  section.infos > .info.grow > .image-grow, 
+  section.infos > .info.grow > .image-grow,
   section.infos > .info.flowing > .image-flowing,
   section.infos > .info.users > .image-users {
     width: 50rem;
   }
 
-  section.info.users.-last { /* VERIFICAR SE É REALMENTE NECESSÁRIO ESSA DECLARAÇÃO */
+  section.info.users.-last {
+    /* VERIFICAR SE É REALMENTE NECESSÁRIO ESSA DECLARAÇÃO */
     margin-bottom: 0;
   }
 }
