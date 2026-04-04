@@ -7,8 +7,7 @@ main > .container {
     "footer footer footer footer";
   
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr) ;
-
+  grid-template-rows: repeat(4, auto);
   font-family: "Poppins", sans-serif;
 }
 
