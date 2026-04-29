@@ -286,12 +286,7 @@ main > .container {
     display: flex;
   }
 
-  .container
-    > header
-    > .header-container
-    > .container
-    > .right
-    > .container-image {
+  .container > header > .header-container > .container > .right > .container-image {
     width: 60rem;
   }
 }
