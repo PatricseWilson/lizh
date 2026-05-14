@@ -321,7 +321,7 @@ section.infos > .info.flowing /* PERGUNTAR NA COMUNIDADE COMO CONSERTAR */ {
 
   border-radius: 1rem;
 
-  padding: 5rem 10rem;
+  padding: 5rem 10rem; /* AJUSTAR O PADDING NO RESPONSIVO */
   margin-bottom: 6rem;
 
   box-shadow: 2px 2px 5px 2px #000;
@@ -341,7 +341,7 @@ section.infos > .info.users > .left > .title {
 }
 
 section.infos > .info.flowing > .right > .title {
-  margin-right: 7.5rem;
+  margin-right: 14.5rem;
 }
 
 section.infos > .info.grow > .left > .description,
