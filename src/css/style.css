@@ -358,16 +358,27 @@ section.infos > .info.users > .image-users {
   section.infos > .info.flowing,
   section.infos > .info.users {
     flex-direction: column-reverse;
+    gap: 2rem;
     
-    padding: 4rem 5rem;
+    padding: 4rem 1rem;
     
     text-align: center;
   }
 
+  section.infos > .info.flowing {
+    flex-direction: column;
+  }
+  
   section.infos > .info.grow > .left > .title,
   section.infos > .info.flowing > .right > .title,
   section.infos > .info.users > .left > .title {
     font-size: 2.7rem;
+  }
+
+  section.infos > .info.flowing > .right > .title {
+    margin-right: 0;
+
+    padding: 0 .8rem;
   }
 
   section.infos > .info.grow > .left > .description,
@@ -378,6 +389,8 @@ section.infos > .info.users > .image-users {
     font-size: 1.7rem;
 
     line-height: 2.8rem;
+
+    padding: 0 1rem;
   }
 
   section.infos > .info.grow > .image-grow,
