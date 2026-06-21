@@ -394,11 +394,16 @@ section.infos > .info.users > .image-users {
   }
 
   section.infos > .info.grow > .image-grow,
-  section.infos > .info.flowing > .image-flowing,
   section.infos > .info.users > .image-users {
     width: 30rem;
 
     margin: 4rem 0;
+  }
+
+  section.infos > .info.flowing > .image-flowing {
+    width: 100%;
+
+    padding: 2rem;
   }
 }
 
