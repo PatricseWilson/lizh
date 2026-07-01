@@ -141,15 +141,16 @@ main > .container {
   }
 
   .container > header > .header-container > ul > .list > .btn {
-    padding: 0.5rem 4rem;
+    padding: 0.9rem 4rem;
 
     font-size: 1.3rem;
+    font-weight: bold;
   }
 
   .container > header > .header-container > .container {
     flex-direction: column;
 
-    margin-top: 8rem;
+    margin-top: 10rem;
   }
 
   .container > header > .header-container > .container > .left > .title {
@@ -161,20 +162,18 @@ main > .container {
   .container > header > .header-container > .container > .left > .description {
     font-size: 1.8rem; /* Tentar ajustar igual está no layout */
 
-    line-height: 2.7rem;
+    line-height: 3rem;
 
     margin-top: 2rem;
   }
 
   .container > header > .header-container > .container > .left > .btn {
     margin: 2rem 0;
-    padding: 1.5rem 2rem;
 
     font-weight: bold;
+    font-size: 1.5rem;
 
     width: 100%;
-
-    text-align: center;
   }
 
   .container > header > .header-container > .container > .right > .container-image {
