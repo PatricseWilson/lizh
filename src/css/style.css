@@ -152,22 +152,25 @@ main > .container {
     margin-top: 8rem;
   }
 
-  .container > header > .header-container > .container > .left {
-    padding: 0 2rem;
-  }
-
   .container > header > .header-container > .container > .left > .title {
-    font-size: 3rem;
+    font-size: 2.9rem;
+
+    line-height: 4.5rem;
   }
 
   .container > header > .header-container > .container > .left > .description {
-    font-size: 2rem;
+    font-size: 1.8rem; /* Tentar ajustar igual está no layout */
+
+    line-height: 2.7rem;
+
     margin-top: 2rem;
   }
 
   .container > header > .header-container > .container > .left > .btn {
-    margin-top: 2rem;
-    padding: 1rem 2rem;
+    margin: 2rem 0;
+    padding: 1.5rem 2rem;
+
+    font-weight: bold;
 
     width: 100%;
 
