@@ -452,15 +452,16 @@ section.infos > .info.users > .image-users {
 
 @media (min-width: 426px) and (max-width: 768px) {
   section.infos {
-    padding: 0 4rem;
+    padding: 0 3rem;
+    
   }
 
   section.infos > .info.grow,
   section.infos > .info.flowing,
   section.infos > .info.users {
-    padding: 2rem;
+    padding: 2rem 2rem;
 
-    gap: 2rem;
+    gap: 5rem;
   }
 
   section.infos > .info.grow > .left > .title,
@@ -477,13 +478,13 @@ section.infos > .info.users > .image-users {
     font-size: 1.7rem;
     line-height: 2.5rem;
 
-    margin-top: 1.5rem;
+    margin-top: 1rem;
   }
 
   section.infos > .info.grow > .image-grow,
   section.infos > .info.flowing > .image-flowing,
   section.infos > .info.users > .image-users {
-    width: 35rem;
+    width: 30rem;
   }
 }
 
