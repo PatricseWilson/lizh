@@ -409,6 +409,47 @@ section.infos > .info.users > .image-users {
   }
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  section.infos {
+    padding: 0 5rem;
+  }
+
+  section.infos > .info.grow,
+  section.infos > .info.flowing,
+  section.infos > .info.users {
+    padding: 4rem 3rem;
+    margin-bottom: 4rem;
+    
+    gap: 7rem;
+  }
+
+  section.infos > .info.users.-last {
+    margin-bottom: 0;
+  }
+
+  section.infos > .info.grow > .left > .title,
+  section.infos > .info.flowing > .right > .title,
+  section.infos > .info.users > .left > .title {
+    font-size: 3rem;
+  }
+
+  section.infos > .info.grow > .left > .description,
+  section.infos > .info.flowing > .right > .description,
+  section.infos > .info.users > .left > .description {
+    width: 100%;
+
+    font-size: 1.7rem;
+
+    line-height: 2.5rem;
+  }
+
+  section.infos > .info.grow > .image-grow,
+  section.infos > .info.flowing > .image-flowing,
+  section.infos > .info.users > .image-users {
+    width: 40rem;
+  }
+}
+
 @media (min-width: 1025px) and (max-width: 1400px) {
   section.infos {
     padding: 0 7rem;
