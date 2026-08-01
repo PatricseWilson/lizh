@@ -302,13 +302,13 @@ section.infos > .info.users {
   box-shadow: 2px 2px 5px 2px #000;
 }
 
-section.infos > .info.flowing /* PERGUNTAR NA COMUNIDADE COMO CONSERTAR */ {
+section.infos > .info.flowing {
   display: flex;
   justify-content: space-between;
 
   border-radius: 1rem;
 
-  padding: 5rem 10rem; /* AJUSTAR O PADDING NO RESPONSIVO */
+  padding: 5rem 10rem; 
   margin-bottom: 6rem;
 
   box-shadow: 2px 2px 5px 2px #000;
