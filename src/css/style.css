@@ -486,7 +486,6 @@ section.infos > .info.users > .image-users {
   }
 
   section.info.users.-last {
-    /* VERIFICAR SE É REALMENTE NECESSÁRIO ESSA DECLARAÇÃO */
     margin-bottom: 0;
   }
 }
