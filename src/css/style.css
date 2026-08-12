@@ -452,7 +452,7 @@ section.infos > .info.users > .image-users {
 
 @media (min-width: 1025px) and (max-width: 1400px) {
   section.infos {
-    padding: 0 7rem;
+    padding: 0 10rem;
   }
 
   section.infos > .info.grow,
@@ -466,7 +466,11 @@ section.infos > .info.users > .image-users {
   section.infos > .info.grow > .left > .title,
   section.infos > .info.flowing > .right > .title,
   section.infos > .info.users > .left > .title {
-    font-size: 3.5rem;
+    font-size: 3rem;
+  }
+
+  section.infos > .info.flowing > .right > .title {
+    margin-left: 10rem;
   }
 
   section.infos > .info.grow > .left > .description,
@@ -474,7 +478,7 @@ section.infos > .info.users > .image-users {
   section.infos > .info.users > .left > .description {
     width: 100%;
 
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
 
     line-height: 2.5rem;
   }
@@ -482,7 +486,7 @@ section.infos > .info.users > .image-users {
   section.infos > .info.grow > .image-grow,
   section.infos > .info.flowing > .image-flowing,
   section.infos > .info.users > .image-users {
-    width: 50rem;
+    width: 40rem;
   }
 
   section.info.users.-last {
