@@ -534,6 +534,11 @@ section.infos > .info.users > .image-users {
 
 section.advertising {
   grid-area: advertising;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
