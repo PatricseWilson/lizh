@@ -539,6 +539,37 @@ section.advertising {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  text-align: center;
+
+  width: 40%;
+
+  margin: 0 auto;
+  padding: 5rem 7rem;
+
+  border-radius: 1rem;
+
+  box-shadow: 2px 2px 5px 2px #000;
+}
+
+section.advertising > .box > .title {
+  font-size: 3rem;
+
+  margin-bottom: 2rem;
+}
+
+section.advertising > .box > .btn {
+  background-color: var(--Pink);
+
+  display: inline-block;
+  
+  margin-top: 1rem;
+  padding: 2rem 8rem;
+  
+  border-radius: 3rem;
+
+  font-size: 1.8rem;
+  color: #FFF;
 }
 
 .footer {
